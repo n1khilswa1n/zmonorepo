@@ -4,10 +4,10 @@ const { join } = require('path');
 
 module.exports = {
   output: {
-    path: join(__dirname, '../../dist/apps/editor'),
+    path: join(__dirname, '../../dist/apps/renderer'),
   },
   devServer: {
-    port: 4000,
+    port: 4200,
   },
   plugins: [
     new NxWebpackPlugin({

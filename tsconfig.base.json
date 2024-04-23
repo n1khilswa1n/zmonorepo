@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@zero/is-even-or-odd": ["libs/isEvenOrOdd/src/index.ts"],
+      "@zero/loader": ["libs/loader/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
