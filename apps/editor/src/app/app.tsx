@@ -1,5 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-
 import { isEvenOrOdd } from '@zero/is-even-or-odd';
 import { Loader } from '../../../../libs/loader/loader';
 
